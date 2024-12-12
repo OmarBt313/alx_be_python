@@ -6,4 +6,3 @@ time = 3
 simple_intrest = principal * rate * time
 
 print (f'The simple interest is:{simple_intrest}')
-
