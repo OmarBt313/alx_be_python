@@ -1,9 +1,9 @@
-p = 1000
+principal = 1000
 
-r = 0.05
-t = 3
+rate = 0.05
+time = 3
 
-simple_intrest = p * r *t
+simple_intrest = principal * rate * time
 
-print (f'the simple intrest is {simple_intrest}')
+print (f'The simple interest is:{simple_intrest}')
 
