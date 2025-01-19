@@ -15,7 +15,7 @@ def convert_to_fahrenheit(celsius):
 def main():
     try:
         # Get user input
-        temp = input("Enter the temperature: ")
+        temp = input("Enter the temperature to convert:")
         if not temp.replace('.', '', 1).isdigit() and not (temp[0] == '-' and temp[1:].replace('.', '', 1).isdigit()):
             raise ValueError("Invalid temperature. Please enter a numeric value.")
 
